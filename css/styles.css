@@ -21,7 +21,8 @@ a {
 /* Hero Image and Navigation Bar */
 
 .hero-image {
-  background: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+  background: 
+  url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
     no-repeat center bottom/cover;
   height: 80vh;
   width: 100%;
