@@ -37,11 +37,11 @@ header {
 nav {
   display: flex;
   border-radius: 0.5rem;
-  height: 4.8rem;
+  height: 4rem;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 5.5rem;
+  margin-top: 7rem;
   position: absolute;
   width: 80%;
   left: 10%;
@@ -168,7 +168,7 @@ nav ul li a {
   height: 35vh;
 }
 
-.images-container img {
+.images-container a{
   width: 25%;
 }
 
