@@ -21,7 +21,7 @@ a {
 /* Hero Image and Navigation Bar */
 
 .hero-image {
-  background:url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat center bottom/cover;
+  background: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat center bottom/cover;
   height: 80vh;
   width: 100%;
   margin: 0 auto;
@@ -89,7 +89,7 @@ nav ul li a {
 .utomi {
   position: relative;
   margin-left: 1rem;
-} 
+}
 
 .search {
   border-radius: 100%;
