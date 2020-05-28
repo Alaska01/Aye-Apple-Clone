@@ -4,8 +4,7 @@ html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-}
+  }
 
 .container {
   margin: 0 auto;
@@ -45,7 +44,7 @@ nav {
   width: 80%;
   left: 10%;
   right: 10%;
-  background-image: linear-gradient(rgb(133,132,132),rgba(133,132,132) 48%,rgb(110,110,110) 51%,rgb(133,132,132) 100%);
+  background-image: linear-gradient(rgb(133,132,132), rgba(133,132,132) 48%, rgb(110,110,110) 51%, rgb(133,132,132) 100%);
 }
 
 nav ul {
