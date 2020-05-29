@@ -12,7 +12,7 @@ Project Design Screenshot : ![Project Design](images/apple-cloned-image.JPG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alaska01/Aye-Apple-Clone/10b3b10e0783d6424a9e3ca5938d834a30a668d1/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alaska01/Aye-Apple-Clone/0f9a1303c3476afbb83d56d7af075af7dc780332/index.html)
 
 # Getting Started 🚀
 
@@ -43,7 +43,7 @@ $ cd apple-clone-branch
 
 ## Show your support
 
-Give a ⭐️ if you like this project!!
+Give a ⭐️ if you like this project!!!
 
 ## Acknowledgments
 
