@@ -4,11 +4,12 @@ html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+  max-width: 1440px;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  min-width: 1200px;
 }
 
 a {
@@ -24,10 +25,6 @@ a {
   height: 80vh;
   margin: 0 auto;
   position: relative;
-}
-
-header {
-  width: 100%;
 }
 
 /* Navigation Bar  */
@@ -164,14 +161,12 @@ nav ul li a {
   display: flex;
   width: 100%;
   height: 35vh;
-}
-
-.images-container a {
-  flex: 1 1 350px;
+  max-width: 1440px;
 }
 
 .images-container img {
   width: 100%;
+  height: 100%;
 }
 
 /* Footer Section */
