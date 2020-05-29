@@ -105,7 +105,7 @@ nav ul li a {
 .fa-search {
   position: absolute;
   float: left;
-  margin-left: -8.3rem;
+  margin-left: -7.6rem;
   padding-top: 0.3rem;
   color: white;
   opacity: 0.4;
@@ -180,10 +180,10 @@ nav ul li a {
   flex-shrink: 1;
   flex-direction: column;
   background-color: white;
-  padding-left: 20rem;
+  padding-left: 18rem;
   line-height: 1.7;
   padding-top: 2rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'Proza Libre', sans-serif;
 }
 
@@ -198,7 +198,7 @@ nav ul li a {
 }
 
 .div-p-ul .ul-footer {
-  padding-left: 5rem;
+  padding-left: 8rem;
 }
 
 .div-p-ul .ul-footer li {
