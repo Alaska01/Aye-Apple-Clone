@@ -12,7 +12,7 @@ Project Design Screenshot : ![Project Design](images/apple-cloned-image.JPG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alaska01/Aye-Apple-Clone/4649235bd1ba73f9bb63da9b9c615e43c73f7a6a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alaska01/Aye-Apple-Clone/10b3b10e0783d6424a9e3ca5938d834a30a668d1/index.html)
 
 # Getting Started 🚀
 
