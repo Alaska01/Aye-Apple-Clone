@@ -7,9 +7,13 @@ html {
   max-width: 1440px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   margin: 0 auto;
-  min-width: 1200px;
+  min-width: 100vw;
 }
 
 a {
@@ -118,7 +122,7 @@ nav ul li a {
   width: 90rem;
   height: 35rem;
   line-height: 6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Proza Libre', sans-serif;
   top: 15rem;
   left: 17%;
 }
@@ -176,9 +180,10 @@ nav ul li a {
   flex-direction: column;
   background-color: white;
   padding-left: 20rem;
-  line-height: 1.5;
+  line-height: 1.7;
   padding-top: 2rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-family: 'Proza Libre', sans-serif;
 }
 
 .ft-line1 {
@@ -211,6 +216,16 @@ nav ul li a {
   color: #08c;
 }
 
+.ft-line-2 span {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.text-arrange p span {
+  padding: 0;
+  margin: 0 -9px;
+}
+
 .div-p-ul .ul-footer li a {
   border-right: 1px solid gray;
 }
@@ -225,9 +240,4 @@ nav ul li a {
   height: 1.2rem;
   width: 1.4rem;
   border-radius: 50%;
-}
-
-.ft-line-2 span {
-  display: inline-block;
-  margin: 0 1rem;
 }
