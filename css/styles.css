@@ -57,6 +57,7 @@ nav ul {
 
 nav ul li {
   display: flex;
+  flex-shrink: 1;
   align-items: center;
   justify-content: center;
   width: 12rem;
@@ -164,10 +165,11 @@ nav ul li a {
 .images-container {
   display: flex;
   width: 100%;
+  min-width: 100vw;
 }
 
 .images-container img {
-  width: 100%;
+  width: 25vw;
   height: 100%;
 }
 
@@ -175,6 +177,7 @@ nav ul li a {
 
 .footer-wrapper {
   display: flex;
+  flex-shrink: 1;
   flex-direction: column;
   background-color: white;
   padding-left: 20rem;
