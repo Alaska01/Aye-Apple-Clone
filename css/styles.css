@@ -1,0 +1,244 @@
+/* Basic Formatting */
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+
+  /* max-width: 1440px; */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hero Image and Navigation Bar */
+
+.hero-image {
+  background: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) no-repeat center bottom/cover;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Navigation Bar  */
+
+nav {
+  display: flex;
+  border-radius: 0.5rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 7rem;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  background-image: linear-gradient(rgb(133, 132, 132), rgba(133, 132, 132) 48%, rgb(110, 110, 110) 51%, rgb(133, 132, 132) 100%);
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  border-right: #999 0.5px solid;
+  height: 3rem;
+  height: 100%;
+}
+
+.no-border {
+  border-right: none;
+}
+
+.no-border input {
+  width: 80%;
+  border-radius: 0.5rem;
+}
+
+nav ul li a {
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Search Icon design on Navbar */
+
+.utomi {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.search {
+  border-radius: 100%;
+}
+
+.search input {
+  background: linear-gradient(to bottom, rgba(125, 126, 125, 1) 0%, rgb(71, 70, 70) 47%, rgba(142, 142, 142, 1) 92%);
+  border: none;
+}
+
+/* Search Icon */
+
+.fa-search {
+  position: absolute;
+  float: left;
+  margin-left: -7.6rem;
+  padding-top: 0.3rem;
+  color: white;
+  opacity: 0.4;
+}
+
+.link:hover {
+  background-color: #5f5f5f;
+}
+
+.nav-titles {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  width: 90rem;
+  height: 35rem;
+  line-height: 6rem;
+  font-family: 'Proza Libre', sans-serif;
+  top: 15rem;
+  left: 17%;
+}
+
+.nav-titles .big-text {
+  font-size: 6rem;
+  left: 50%;
+  color: white;
+}
+
+.nav-titles .small-text {
+  font-size: 3rem;
+  color: white;
+}
+
+.nav-titles .smaller-text {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.div-p-ul div p,
+.ft-line-2 {
+  color: #6e6e6e;
+}
+
+.nav-titles p:hover {
+  cursor: pointer;
+}
+
+.nav-titles .smaller-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.smaller-text .fa {
+  font-size: 1.5rem;
+}
+
+.images-container {
+  display: flex;
+  width: 100%;
+  min-width: 100vw;
+}
+
+.images-container img {
+  width: 25vw;
+  height: 100%;
+}
+
+/* Footer Section */
+
+.footer-wrapper {
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 18rem;
+  line-height: 1.7;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.ft-line1 {
+  display: flex;
+}
+
+.div-p-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-p-ul .ul-footer {
+  padding-left: 6rem;
+}
+
+.div-p-ul .ul-footer li {
+  display: inline;
+}
+
+.div-p-ul a {
+  width: 1.5rem;
+  padding: 0 1rem;
+  height: 0.6rem;
+}
+
+.ft-line-2 span a,
+.ul-footer li a,
+.div-p-ul div p a {
+  color: #08c;
+}
+
+.ft-line-2 span {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.text-arrange p span {
+  padding: 0;
+  margin: 0 -9px;
+}
+
+.div-p-ul .ul-footer li a {
+  border-right: 1px solid gray;
+}
+
+.div-p-ul .ul-footer li .no-border {
+  border-right: none;
+  padding-left: 0;
+  padding-top: 0.5rem;
+}
+
+.div-p-ul .ul-footer li a img {
+  height: 1.2rem;
+  width: 1.4rem;
+  border-radius: 50%;
+}
